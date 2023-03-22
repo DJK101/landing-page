@@ -1,15 +1,27 @@
 * {
-    border: 2px solid red;
+    font-family: 'Roboto', sans-serif;
+    /* border: 1px solid red; */
 }
 
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    align-items: center;
 }
 
 .header {
-    height: 60px;
+    flex-grow: 1;
     background-color: #1F2937;
+}
+
+.content {
+    max-width: 70%;
+    border: 1px solid red;
+}
+
+.logo {
+    color: #F9FAF8;
 }
 
 
