@@ -1,0 +1,16 @@
+* {
+    border: 2px solid red;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 60px;
+    background-color: #1F2937;
+}
+
+
+
