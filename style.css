@@ -1,5 +1,5 @@
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
   /* border: 1px solid red; */
 }
 
@@ -88,7 +88,6 @@ img {
 }
 
 .section.two {
-    border: 1px solid purple;
     background-color: white;
     flex-direction: column;
     align-items: stretch;
@@ -110,6 +109,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100px
 }
 
 .tile > .subtext {
@@ -117,12 +117,32 @@ img {
     font-size: 12px;
     color: gray;
     text-align: center;
-    width: 125px;
+    width: 100%;
 }
 
 .illustration {
     aspect-ratio: 1/1;
-    width: 125px;
+    width: 100%;
     border: 3px solid #3882f6;
     border-radius: 10px;
+}
+
+.section.three {
+    background-color: #e5e7eb;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.section.three > .quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    text-align: start;
+}
+
+.section.three > .author {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 18px;
 }
